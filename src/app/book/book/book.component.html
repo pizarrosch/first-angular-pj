@@ -1,5 +1,14 @@
-<div>
-    <p>{{ title }}</p>
-    <app-image />
+<div class="mainContainer">
+    <div class="booksContainer" *ngFor="let book of books">
+        <div class="imageContainer">
+            <img src="{{ book.imgSrc }}" alt="{{book.alt}}" class="image"/>
+        </div>
+        <div>
+            <h2>{{ book.author }}</h2>
+            <h3>{{ book.title }}</h3>
+            <p>{{ book.currency }} {{ book.price }}</p>
+        </div>
+    </div>
+
 </div>
 

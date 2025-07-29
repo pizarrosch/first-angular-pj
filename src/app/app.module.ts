@@ -3,15 +3,13 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
 import {BookComponent} from './book/book/book.component';
-import {ImageComponent} from "./book/image/image.component";
 
 @NgModule({
     declarations: [
         AppComponent, BookComponent
     ],
     imports: [
-        BrowserModule,
-        ImageComponent,
+        BrowserModule
     ],
     providers: [],
     bootstrap: [AppComponent]
