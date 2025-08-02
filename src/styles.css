@@ -4,3 +4,13 @@ html, body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.dark {
+  background-color: #212121;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #212121;
+}
