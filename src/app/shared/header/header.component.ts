@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import {ThemeService} from "../../services/theme.service";
+import {ButtonComponent} from "../button/button.component";
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [
+    ButtonComponent
+  ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
-  constructor(public theme: ThemeService) {
-  }
-}
+export class HeaderComponent {}
