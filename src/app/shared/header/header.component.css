@@ -1,0 +1,19 @@
+.root {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0 10px 10px -10px;
+    padding: 10px;
+
+    .buttonContainer {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 10px;
+        width: 100px;
+        height: 30px;
+    }
+}

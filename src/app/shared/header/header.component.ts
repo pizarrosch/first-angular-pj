@@ -9,4 +9,6 @@ import {ButtonComponent} from "../button/button.component";
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  title = 'My First Angular Project';
+}

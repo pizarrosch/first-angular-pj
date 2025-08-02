@@ -8,6 +8,4 @@ import {BookComponent} from "./book/book/book.component";
   standalone: false
 })
 
-export class AppComponent {
-  title = 'My First Angular Project';
-}
+export class AppComponent {}
