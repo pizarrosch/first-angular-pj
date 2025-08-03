@@ -1,15 +1,16 @@
 .mainContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .booksContainer {
     display: flex;
-    gap: 15px;
+    width: 340px;
+    gap: 20px;
 }
 
 .imageContainer {
-    width: 150px;
+    width: 130px;
     height: 200px;
     object-fit: cover;
 }
