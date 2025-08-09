@@ -4,6 +4,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {BookComponent} from './book/book/book.component';
 import {HeaderComponent} from "./shared/header/header.component";
+import {provideRouter, RouterLink, RouterOutlet} from "@angular/router";
+import {appRoutes} from "./app.routes";
 
 @NgModule({
     declarations: [
@@ -11,9 +13,11 @@ import {HeaderComponent} from "./shared/header/header.component";
     ],
     imports: [
         BrowserModule,
-        HeaderComponent
+        HeaderComponent,
+        RouterOutlet,
+        RouterLink
     ],
-    providers: [],
+    providers: [provideRouter(appRoutes)],
     bootstrap: [AppComponent]
 })
 export class AppModule {

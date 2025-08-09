@@ -1,5 +1,5 @@
 <div class="mainContainer">
-    <div class="booksContainer" *ngFor="let book of books">
+    <div class="booksContainer" *ngFor="let book of books" [routerLink]="['/details', book.title]">
         <div class="imageContainer">
             <img src="{{ book.imgSrc }}" alt="{{book.alt}}" class="image"/>
         </div>
